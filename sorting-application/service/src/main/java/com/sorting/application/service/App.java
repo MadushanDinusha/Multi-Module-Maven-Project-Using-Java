@@ -1,9 +1,6 @@
 package com.sorting.application.service;
 
-import com.sorting.application.core.BubbleSort;
-import com.sorting.application.core.InsertionSort;
-import com.sorting.application.core.SelectionSort;
-import com.sorting.application.core.SortingAlgorithm;
+import com.sorting.application.core.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -12,9 +9,11 @@ import java.util.List;
 public class App 
 {
     public static void main( String[] args ) {
-        List<? extends SortingAlgorithm> sortingAlgorithms = Arrays.asList(new InsertionSort(), new SelectionSort(), new BubbleSort());
+        List<? extends SortingAlgorithm> sortingAlgorithms = Arrays.asList(new InsertionSort(), new SelectionSort());
         for (SortingAlgorithm algorithm: sortingAlgorithms) {
             int[] input = getIntArr(args);
+            MergeSort objmrg = new MergeSort();
+            objmrg.sort(input,2,10);
             algorithm.sort(input);
             printArr(input);
         }
