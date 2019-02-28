@@ -1,7 +1,7 @@
 package com.sorting.application.core;
 
 public class SelectionSort implements SortingAlgorithm {
-    public void sort(int[] arr) {
+    public int[] sort(int[] arr) {
         int n = arr.length;
         System.out.print("Using Selection Sort :");
         // One by one move boundary of unsorted subarray
@@ -23,6 +23,7 @@ public class SelectionSort implements SortingAlgorithm {
         long startTime = System.nanoTime();
         long endTime = System.nanoTime();
         System.out.println("Took "+(endTime - startTime) + " ns for Selection sort");
+        return arr;
     }
 }
 
