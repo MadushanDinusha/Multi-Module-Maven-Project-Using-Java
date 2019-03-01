@@ -2,6 +2,7 @@ package com.sorting.application.core;
 
 public class InsertionSort implements SortingAlgorithm {
     public int[] sort(int[] arr) {
+        long startTime = System.nanoTime();
         int n = arr.length;
         System.out.print("Using Insertion Sort :");
         for(int i=0;i<n;i++){
@@ -13,7 +14,7 @@ public class InsertionSort implements SortingAlgorithm {
             }
             arr[j+1]=flag;
         }
-        long startTime = System.nanoTime();
+
         long endTime = System.nanoTime();
         System.out.println("Took "+(endTime - startTime) + " ns For Insertion Sort");
         return arr;

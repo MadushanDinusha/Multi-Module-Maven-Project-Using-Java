@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Maven: your-testng-listener-artifact-groupid:your-testng-listener-artifact-artifactid:your-testng-listener-artifact-version">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/your-testng-listener-artifact-groupid/your-testng-listener-artifact-artifactid/your-testng-listener-artifact-version/your-testng-listener-artifact-artifactid-your-testng-listener-artifact-version-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/your-testng-listener-artifact-groupid/your-testng-listener-artifact-artifactid/your-testng-listener-artifact-version/your-testng-listener-artifact-artifactid-your-testng-listener-artifact-version-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
