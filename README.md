@@ -32,6 +32,7 @@ In order to use JUnit5 add following dependencies to main pom
 * Maven - Dependency Management
 * Java 
 * JUnit 5
+* Maven surefire 
 
 ## Authors
 * Madushan Dinusha
