@@ -1,5 +1,5 @@
 # Multi-Module-Maven-Project-Using-Java
-This project is done to understand the concept of Maven multi-module    
+This project has done to understand the concept of Maven multi-module    
 In the parent Module there are two sub-modules  
   i)  Core  
   ii) Service  
