@@ -15,17 +15,12 @@
   <name>service</name>
   <url>http://maven.apache.org</url>
 
+
   <dependencies>
     <dependency>
       <groupId>com.sorting.application.core</groupId>
       <artifactId>core</artifactId>
       <version>${project.version}</version>
-    </dependency>
-
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <scope>test</scope>
     </dependency>
   </dependencies>
 </project>

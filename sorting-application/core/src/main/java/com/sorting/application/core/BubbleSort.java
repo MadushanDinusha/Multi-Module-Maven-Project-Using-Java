@@ -1,7 +1,8 @@
 package com.sorting.application.core;
 
 public class BubbleSort implements SortingAlgorithm {
-    public void sort(int[] arr) {
+    public int[] sort(int[] arr) {
+        long startTime = System.nanoTime();
         int n = arr.length;
         System.out.print("Using Bubble Sort :");
         for (int i = 0; i < n - 1; i++)
@@ -11,9 +12,10 @@ public class BubbleSort implements SortingAlgorithm {
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
                 }
-        long startTime = System.nanoTime();
+
         long endTime = System.nanoTime();
-        System.out.println("Took "+(endTime - startTime) + " ns for Bubble sort");
+        System.out.println("Took "+(endTime - startTime) + " ns for Bubble executeSorting");
+        return arr;
     }
 
 }
